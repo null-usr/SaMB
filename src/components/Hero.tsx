@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative bg-cream-50 overflow-hidden">
+    <section id="home" className="relative grid grid-cols-1 content-center bg-cream-50 overflow-hidden h-[90vh]">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-20"></div>
       <div className="container mx-auto px-4 py-16 md:py-24 lg:py-32 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
@@ -11,7 +11,7 @@ const Hero = () => {
             Delicious Homemade Baked Goods
           </h1>
           <p className="text-lg md:text-xl text-bakery-800 mb-8">
-            Made with love, quality ingredients, and traditional recipes handed down through generations.
+            Made with love, quality ingredients, and homemade recipes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

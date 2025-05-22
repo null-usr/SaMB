@@ -124,6 +124,7 @@ export default {
 			},
 			fontFamily: {
 				'dancing': ['"Dancing Script"', 'cursive'],
+				'gummy': ['"Sour Gummy"', 'regular'],
 			}
 		}
 	},

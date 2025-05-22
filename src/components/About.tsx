@@ -26,14 +26,12 @@ const About = () => {
             </Card>
           </div>
           
-          <div className="space-y-6">
+          <div className="space-y-6 self-end mb-0 md:mb-32">
             <h3 className="text-2xl font-bold text-bakery-800">From Our Kitchen To Your Table</h3>
             <p className="text-bakery-700">
               Welcome to Sweet As Me Bakery! We're a family-owned bakery that brings the warmth and comfort of homemade baked goods to your doorstep.
             </p>
-            <p className="text-bakery-700">
-              Our journey began 10 years ago in our home kitchen, where we perfected family recipes passed down through generations. What started as sharing treats with neighbors has grown into our passion project.
-            </p>
+            
             <p className="text-bakery-700">
               We believe in using only the finest ingredients - locally sourced when possible - and baking in small batches to ensure quality and freshness in every bite.
             </p>
@@ -43,10 +41,10 @@ const About = () => {
                 <p className="text-3xl font-bold text-bakery-600">100%</p>
                 <p className="text-sm text-bakery-700">Natural Ingredients</p>
               </div>
-              <div className="text-center p-4 bg-cream-50 rounded-lg">
+              {/* <div className="text-center p-4 bg-cream-50 rounded-lg">
                 <p className="text-3xl font-bold text-bakery-600">50+</p>
                 <p className="text-sm text-bakery-700">Unique Recipes</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

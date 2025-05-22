@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -101,4 +101,8 @@
   .bakery-shadow {
     box-shadow: 0 4px 20px rgba(210, 150, 90, 0.1);
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
