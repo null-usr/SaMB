@@ -15,7 +15,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
-              className="bg-bakery-600 hover:bg-bakery-700 text-white font-medium px-6 py-3 rounded-full"
+              className="bg-bakery-600 hover:bg-bakery-700 text-white font-medium px-6 py-3"
               size="lg"
               asChild
             >

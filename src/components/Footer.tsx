@@ -9,12 +9,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-dancing font-bold text-bakery-900 mb-4">Homemade Delights</h3>
+            <h3 className="text-xl font-dancing font-bold text-bakery-900 mb-4">Sweet As Me Bakery</h3>
             <p className="text-bakery-700 mb-4">
               Bringing the joy of fresh, homemade baked goods to your table.
             </p>
             <p className="text-bakery-700 text-sm">
-              &copy; {currentYear} Homemade Delights. All rights reserved.
+              &copy; {currentYear} Sweet As Me Bakery. All rights reserved.
             </p>
           </div>
           
@@ -47,23 +47,6 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-semibold text-bakery-900 mb-4">Newsletter</h3>
-            <p className="text-bakery-700 mb-4">
-              Subscribe to get updates on new seasonal specials and promotions.
-            </p>
-            <div className="flex">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="py-2 px-3 flex-grow rounded-l-lg focus:outline-none focus:ring-1 focus:ring-bakery-400 border border-cream-300"
-              />
-              <button className="bg-bakery-600 hover:bg-bakery-700 text-white py-2 px-4 rounded-r-lg transition-colors">
-                Subscribe
-              </button>
-            </div>
           </div>
         </div>
       </div>

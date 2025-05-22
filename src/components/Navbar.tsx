@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <span className="text-2xl md:text-3xl font-bold font-dancing text-bakery-900">
-            Homemade Delights
+            Sweet As Me Bakery
           </span>
         </Link>
         
