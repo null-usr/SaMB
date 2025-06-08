@@ -92,7 +92,7 @@ const ContactForm = () => {
                 </ContactItem>
 
                 <ContactItem icon={<Mail />} title="Email">
-                  <p>hello@homemadedelights.com</p>
+                  <p>hello@samb.com</p>
                 </ContactItem>
 
                 <div className="pt-4">
