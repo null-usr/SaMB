@@ -111,7 +111,7 @@ const Products = () => {
           <div className="w-24 h-1 bg-bakery-400 mx-auto mb-4"></div>
           <p className="text-bakery-700 max-w-2xl mx-auto">
             All our products are freshly baked daily using premium ingredients.
-            Place your orders at least 24 hours in advance.
+            Place your orders at least 2 weeks in advance.
           </p>
         </div>
         

@@ -60,7 +60,7 @@ const Contact = () => {
                 <MapPin size={48} className="mx-auto mb-4 text-bakery-600" />
                 <h3 className="text-xl font-bold text-bakery-800">Find Us</h3>
                 <p className="text-bakery-700">
-                  We're located in the heart of Breadville, <br />
+                  We're NOT located in the heart of Breadville, <br />
                   just off Main Street.
                 </p>
               </div>
